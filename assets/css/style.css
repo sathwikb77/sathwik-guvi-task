@@ -1,0 +1,33 @@
+
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    background-image:url("/img/minimalist-artwork-of-rick-and-morty-chfsqooqmev4xjrw.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#04AA6D;
+}
+form{
+    
+    background-color:rgb(200, 245, 200);
+    border-radius:10px;
+}
+form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px rgb(233, 12, 115);
+}
